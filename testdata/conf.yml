@@ -1,0 +1,11 @@
+elasticsearch:
+  url: http://127.0.0.1:9200
+dir:
+  workspace: /workspace
+  templates: /etc/esmaint.tmpl.d
+indices:
+  ignores:
+    - '-12-12'
+  rules:
+    info-: 5, 8, 9, 10
+    info-prod: 5, 7, 8, -
